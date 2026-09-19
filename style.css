@@ -109,3 +109,21 @@ header {
   font-size: 14px;
   white-space: nowrap;
 }
+  font-family: "Poppins";
+}
+
+.red-slip {
+  background-color: #f23f3b;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.banner {
+  width: 100vw;
+}
+
+.banner img {
+  width: 100%;
+}
