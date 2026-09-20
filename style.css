@@ -131,12 +131,17 @@ header {
 }
 
 /* Hourly Deals */
+.hd-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .hd-section {
   padding: 40px 50px;
 }
 
 .hd-cards {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   align-items: start;
   justify-content: space-between;
