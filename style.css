@@ -353,7 +353,8 @@ header {
 }
 
 /* Ganpati Banner */
-.gb-section {
+.gb-section,
+.la-section {
   padding: 10px 100px;
 }
 
