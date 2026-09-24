@@ -387,7 +387,7 @@ section img {
   background-color: #f4f4f4;
   font-weight: 400;
   color: black;
-  border: none  ;
+  border: none;
   width: fit-content;
 }
 
@@ -487,8 +487,13 @@ section img {
   margin-bottom: 18px;
 }
 
+/* Laroche Must Haves */
+.lrp-section {
+  padding: 10px 50px;
+}
+
 /* Dicover laroche posey */
-.discover{
+.discover {
   padding: 40px 50px;
 }
 
@@ -525,6 +530,173 @@ section img {
   font-weight: 400;
 }
   
+/*Trending Categories*/
+.trending-categories {
+  position: relative;
+  padding: 40px 50px;
+}
+
+.trending-categories h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.trending-scroll-btn {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.trending-scroll-btn i {
+  font-size: 25px;
+}
+
+.trending-row {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.trending-card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 190px;
+}
+.trending-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.trending-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+/* Laroche Must Haves */
+.lrp-section {
+  padding: 10px 50px;
+}
+
+.lrp-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.lrp-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+  
+/*Trending Categories*/
+.trending-categories {
+  position: relative;
+  padding: 40px 50px;
+}
+
+.trending-categories h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.trending-scroll-btn {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.trending-scroll-btn i {
+  font-size: 25px;
+}
+
+.trending-row {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+}
+
+.trending-card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 190px;
+}
+.trending-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.trending-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.discover h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.discover-row {
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.discover-banner {
+  flex: 1;
+}
+
+/* Laroche Must Haves */
+.lrp-section {
+  padding: 10px 50px;
+}
+
+.lrp-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lrp-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
 /*Trending Categories*/
 .trending-categories {
   position: relative;
