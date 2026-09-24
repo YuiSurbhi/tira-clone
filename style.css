@@ -481,8 +481,8 @@ section img {
   gap: 16px;
 }
 
-.discover-banner{
-  width: 100%;
+.discover-banner {
+  flex: 1;
   margin-bottom: 16px;
 }
 
