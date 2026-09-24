@@ -361,3 +361,46 @@ header {
 section img {
   width: 100%;
 }
+
+/* Laroche Must Haves */
+.lrp-section {
+  padding: 10px 50px;
+}
+
+.lrp-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lrp-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.lrp-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.lrp-card {
+  flex: auto;
+  border: 1px solid red;
+}
+
+.lrp-card img {
+  width: 100%;
+}
+
+.lrp-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec {
+  background-color: #f6f6f6;
+  color: black;
+  border: none;
+}
