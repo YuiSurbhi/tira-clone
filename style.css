@@ -131,7 +131,7 @@ header {
   width: 100%;
 }
 
-/* catagories */
+/* categories */
 .categories {
   position: relative;
   padding: 40px 50px;
@@ -518,6 +518,7 @@ section img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
   
 .lrp-section h1 {
   font-size: 25px;
@@ -582,5 +583,3 @@ section img {
   font-size: 14px;
   color: #1a1a1a;
 }
-
-
