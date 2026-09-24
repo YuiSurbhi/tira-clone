@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
 /* header */
 header {
   display: flex;
@@ -367,6 +368,29 @@ section img {
   border-radius: 4px;
 }
 
+.product-button {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0px;
+  background: #000;
+  color: white;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .product-button {
+  opacity: 1;
+}
+
+.sec {
+  background-color: #f4f4f4;
+  font-weight: 400;
+  color: black;
+  border: none  ;
+  width: fit-content;
+}
+
 .badge {
   position: absolute;
   top: 10px;
@@ -424,7 +448,7 @@ section img {
   border-radius: 50%;
   border: none;
   background: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -485,6 +509,21 @@ section img {
   flex: 1;
 }
 
+/* Laroche Must Haves */
+.lrp-section {
+  padding: 10px 50px;
+}
+
+.lrp-section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+.lrp-section h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+  
 /*Trending Categories*/
 .trending-categories {
   position: relative;
@@ -543,4 +582,5 @@ section img {
   font-size: 14px;
   color: #1a1a1a;
 }
+
 
