@@ -487,8 +487,27 @@ section img {
   margin-bottom: 18px;
 }
 
-section img {
-  width: 100%;
+/* Dicover laroche posey */
+.discover{
+  padding: 40px 50px;
+}
+
+.discover h1{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.discover-row{
+  margin-top: 30px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.discover-banner {
+  flex: 1;
+  margin-bottom: 16px;
 }
 
 /* Laroche Must Haves */
