@@ -324,13 +324,18 @@ header {
   font-size: 14px;
   color: #1a1a1a;
 }
-
 /* Ganpati Banner */
 .gb-section {
   padding: 10px 100px;
 }
 
 section img {
+  width: 100%;
+}
+
+/* LRP Banner */
+.la-section {
+  padding: 10px 100px;
   width: 100%;
 }
 
@@ -497,12 +502,12 @@ section img {
   padding: 40px 50px;
 }
 
-.discover h1{
+.discover h1 {
   font-size: 25px;
   font-weight: 400;
 }
 
-.discover-row{
+.discover-row {
   margin-top: 30px;
   display: flex;
   align-items: start;
@@ -524,12 +529,12 @@ section img {
   align-items: center;
   justify-content: space-between;
 }
-  
+
 .lrp-section h1 {
   font-size: 25px;
   font-weight: 400;
 }
-  
+
 /*Trending Categories*/
 .trending-categories {
   position: relative;
@@ -589,7 +594,7 @@ section img {
   color: #1a1a1a;
 }
 
-.discover h1{
+.discover h1 {
   font-size: 25px;
   font-weight: 400;
 }
@@ -616,12 +621,12 @@ section img {
   align-items: center;
   justify-content: space-between;
 }
-  
+
 .lrp-section h1 {
   font-size: 25px;
   font-weight: 400;
 }
-  
+
 /*Trending Categories*/
 .trending-categories {
   position: relative;
