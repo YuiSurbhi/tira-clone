@@ -692,3 +692,66 @@ section img {
 .card-info p{
   padding: 10px 20px 0px 20px;
 }
+
+/* Footer */
+.footer-nav {
+  font-size: small;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 50px 200px;
+}
+
+.footer-nav div img {
+  width: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+}
+
+ul li a:hover {
+  color: #f23f3b;
+}
+
+.contact{
+  font-size: 12px;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.red-text {
+  color: red;
+}
+
+.grey-text{
+  color: #6b6b6b;
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  background: #a7a5a5;
+}
+
+.tc{
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6e6c6c;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tc ul{
+  display: flex;
+  gap: 20px;
+}
