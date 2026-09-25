@@ -326,7 +326,7 @@ header {
 }
 /* Ganpati Banner */
 .gb-section {
-  padding: 10px 100px;
+  padding: 40px 50px;
 }
 
 section img {
@@ -335,7 +335,7 @@ section img {
 
 /* LRP Banner */
 .la-section {
-  padding: 10px 100px;
+  padding: 40px 50px;
   width: 100%;
 }
 
