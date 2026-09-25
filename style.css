@@ -628,3 +628,83 @@ section img {
   border-radius: 0px 20px 20px 0px;
   opacity: 0.5;
 }
+
+/* Brands to know */
+.brands-know {
+  background-color: #fbeee6;
+  border-radius: 8px;
+  padding: 40px;
+  margin: 0 50px;
+}
+
+.brands-know h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.brands-row {
+  display: flex;
+  gap: 20px;
+}
+
+.brands-card {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.brands-card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.brands-card p {
+  margin-top: 16px;
+  font-size: 20px;
+  
+}
+
+.shop-now {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+/* Trust */
+.trust {
+  background-color: #fbeee6;
+  border-radius: 8px;
+  padding: 40px;
+  margin: 0 40px;
+}
+
+.trust-row{
+  display: flex;
+  gap: 20px;
+}
+
+.trust-badge{
+  flex: 1;
+  text-align: left;
+}
+
+.trust-badge img{
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.trust-badge h2{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.trust-badge p{
+  font-size: 15px;
+  color: #6b6b6b;
+}
